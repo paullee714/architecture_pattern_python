@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "python_architecture_patterns"
+version = "0.1.0"
+description = ""
+authors = ["paullee714 <paul_lee@kakao.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.74.1"
+Flask = "^2.0.3"
+requests = "^2.27.1"
+aiohttp = "^3.8.1"
+SQLAlchemy = "^1.4.31"
+pandas = "^1.4.1"
+numpy = "^1.22.2"
+Django = "^4.0.2"
+pytest = "^7.0.1"
+unittest = "^0.0"
+djangorestframework = "^3.13.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
